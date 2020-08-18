@@ -1,0 +1,22 @@
+{
+  "name": "checklinks-action",
+  "version": "1.0.0",
+  "description": "Check if the links in a Markdown file are active.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "action",
+    "github-action",
+    "readme",
+    "markdown"
+  ],
+  "author": "Kike Fontán (@CosasDePuma)",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0",
+    "sync-request": "^6.1.0"
+  }
+}

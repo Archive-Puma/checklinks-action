@@ -1,0 +1,20 @@
+name: 'Check links'
+description: 'Check if the links in a Markdown file are active.'
+inputs:
+  # Markdown file to check
+  file:
+    description: 'Markdown file to check'
+    required: true
+    default: 'README.md'
+outputs:
+  # Status code
+  #   0 = All good
+  #   1 = Something is wrong
+  status:
+    description: 'Status code'
+  # Dead links
+  deadlinks:
+    description: 'Dead links' 
+runs:
+  using: 'node12'
+  main: 'index.js'
