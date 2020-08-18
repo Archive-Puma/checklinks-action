@@ -15,7 +15,7 @@ Collections of all the dead links. (Status code: 400)
 ## Example usage
 
 ```yaml
-uses: cosasdepuma/checklinks@v1
+uses: cosasdepuma/checklinks-actions@v1
 with:
   file: 'README.md'
 ```
